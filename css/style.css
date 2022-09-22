@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/* RESERT INITIAL'S CONFIGS */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+}
+
+/* BODY */
+body {
+  background-color: hsl(30, 38%, 92%);
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* FIRST CONTENT */
+#firstDiv {
+  background-color: white;
+  width: 350px;
+  height: 560px;
+  margin-top: 32px;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#img1 {
+  width: 350px;
+  height: 200px;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+#p1 {
+  opacity: 0.6;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+#p2 {
+  font-size: 29px;
+  margin-top: 15px;
+  font-family: Montserrat, Serif;
+  margin-left: 15px;
+}
+#p3 {
+  opacity: 0.6;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 17px;
+}
+#p4 {
+  font-size: 40px;
+  margin-right: 10px;
+  margin-left: 15px;
+  font-family: "Fraunces", Sans-Serif;
+  color: hsl(158, 36%, 37%);
+}
+#p5 {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+#secondDiv {
+  margin-top: 23px;
+  display: flex;
+  align-items: center;
+}
+#firstDiv button {
+  background-color: hsl(158, 36%, 37%);
+  font-size: 17px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 38px;
+  width: 280px;
+  margin-left: 34px;
+  margin-top: 15px;
+}
+
+
+/* SECOND CONTENT */
+#attribution {
+  margin-top: 23px;
+  text-align: center;
+  margin-bottom: 23px;
+}
+#attribution hr {
+  margin-bottom: 23px;
+}
