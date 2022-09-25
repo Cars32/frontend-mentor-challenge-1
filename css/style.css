@@ -21,7 +21,7 @@ body {
 #firstDiv {
   background-color: white;
   width: 350px;
-  height: 560px;
+  max-height: 620px;
   margin-top: 32px;
   border-radius: 13px;
   display: flex;
@@ -29,18 +29,19 @@ body {
   flex-wrap: wrap;
 }
 #img1 {
-  width: 350px;
-  height: 200px;
+  display: block;
+  max-width: 100%;
   border-top-left-radius: 13px;
   border-top-right-radius: 13px;
 }
 #p1 {
+  font-size: 1rem;
   opacity: 0.6;
   margin-top: 15px;
   margin-left: 15px;
 }
 #p2 {
-  font-size: 29px;
+  font-size: 2rem;
   margin-top: 15px;
   font-family: Montserrat, Serif;
   margin-left: 15px;
@@ -49,10 +50,10 @@ body {
   opacity: 0.6;
   margin-top: 15px;
   margin-left: 15px;
-  font-size: 17px;
+  font-size: 1rem;
 }
 #p4 {
-  font-size: 40px;
+  font-size: 2rem;
   margin-right: 10px;
   margin-left: 15px;
   font-family: "Fraunces", Sans-Serif;
@@ -69,14 +70,15 @@ body {
 }
 #firstDiv button {
   background-color: hsl(158, 36%, 37%);
-  font-size: 17px;
+  font-size: 1rem;
   color: white;
   border: none;
   border-radius: 5px;
-  height: 38px;
-  width: 280px;
-  margin-left: 34px;
-  margin-top: 15px;
+  height: 3rem;
+  max-width: 85%;
+  margin-top: 10px;
+  margin-left: 28px;
+  margin-bottom: 15px;
 }
 
 
